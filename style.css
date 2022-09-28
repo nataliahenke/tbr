@@ -1,0 +1,118 @@
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.11);
+        padding: 20px;
+        justify-content: center;
+        display: flex;
+        background-color: #eee;
+}
+
+h1 {
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 40px;
+        color: #5a4a71;
+        margin-right: 50px;
+}
+
+header button {
+        background-color: #5a4a71;
+        padding: 3px;
+        color: #eee;
+        border-color: #5a4a71;
+        border-style: solid;
+        cursor: pointer;
+        font-size: 18px;
+        width: 160px;
+        height: 55px;
+        border-radius: 80px;
+        transition: 0.15s;
+}
+
+header button:hover {
+        color: #5a4a71;
+        background-color: #eee;
+        font-weight: bold;
+}
+
+.container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+}
+
+form {
+        width: 600px;
+        display: none;
+}
+
+form input {
+        display: flex;
+        margin: 10px;
+        padding: 10px;
+        font-size: 18px;
+        width: 80%;
+}
+
+form button {
+        width: 150px;
+        background-color: #5a4a71;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        border:#5a4a71;
+        border-style: solid;
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 30px;
+        transition: 0.15s;
+}
+
+form button:hover {
+        color: #5a4a71;
+        background-color: #fff;
+}
+
+#cancelar {
+        width: 150px;
+        background-color: #2f2d31;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        border:#2f2d31;
+        border-style: solid;
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 30px;
+        transition: 0.15s;
+}
+
+#cancelar:hover {
+        color: #2f2d31;
+        background-color: #fff;
+}
+
+table {
+        width: 100%;
+}
+
+table th {
+        border-bottom: 2px solid #5a4a71;
+        padding: 16px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Titillium Web', sans-serif;
+        color: #5a4a71;
+}
+
+table td {
+        padding: 16px 0;
+        text-align: center;
+        font-size: 16px;
+        border-bottom: 1px solid rgb(0,0,0, 0.15);
+}

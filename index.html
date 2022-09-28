@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Titillium+Web&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>TBR</title>
+  </head>
+  <body>
+    <header>
+      <h1>Minha TBR</h1>
+      <button id="inicio">Adicionar livros</button>
+    </header>
+    <div class="container">
+      <form id="form-tbr">
+        <input
+          type="text"
+          name="titulo"
+          id="titulo"
+          placeholder="Título do livro"
+        />
+        <input
+          type="text"
+          name="autor"
+          id="autor"
+          placeholder="Autor do livro"
+        />
+        <input
+          type="number"
+          name="paginas"
+          id="paginas"
+          placeholder="Quantas páginas?"
+        />
+        <button id="adicionar" type="submit">Adicionar</button>
+        <button id="cancelar" type="reset">Cancelar</button>
+      </form>
+    </div>
+    <div class="container">
+      <table>
+        <thead>
+          <tr>
+            <th>Título do livro</th>
+            <th>Autor</th>
+            <th>Número de páginas</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot></tfoot>
+      </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+  </body>
+</html>
